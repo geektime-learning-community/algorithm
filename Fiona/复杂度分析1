@@ -1,0 +1,11 @@
+复杂度分析难点mark--4.21理解
+
+评估算法执行效率的方法--is like a tool，such as big O notation;
+
+事后统计法- obeserve after code opeartion,greatly determined by environment and the amount of data;
+
+测试代码
+
+常量级的执行代码；
+
+加法法则，乘法法则
