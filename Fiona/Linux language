@@ -1,0 +1,7 @@
+passwd 123456789
+
+useradd fiona
+
+//创建组的代码
+useradd -h
+

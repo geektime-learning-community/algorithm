@@ -1,0 +1,31 @@
+理解难点
+
+查找需要遍历的个数累计起来；
+
+void/pos/val
+
+平均复杂度只在某些特殊情况下才会用到；
+
+一个往数组中插入数据的功能；
+
+均摊时间复杂度的理解思路
+
+课后思考
+int array[] = new int[10];
+int len = 0;
+int i = 0;
+
+void add(int element){
+   if (i >= len) 
+   {
+   int new_array[] = new int[len*2];
+     for (int j = 0; j < len; ++j)
+     {new_array [j] = array [j];
+     }
+     array = new_array;
+     len = 2 * len;
+    }
+     array[i] = element;
+     ++i;
+  }
+     
